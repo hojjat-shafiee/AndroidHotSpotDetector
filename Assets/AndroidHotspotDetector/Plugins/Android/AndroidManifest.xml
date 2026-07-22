@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidhotspot.detector">
+    
+    <!-- Required for WifiManager access -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- Required for ConnectivityManager tethering check -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+        <!-- 
+            NOTE: For a plugin, you typically don't include Activity definitions here 
+            unless they are specific to the plugin. The host application should define its own.
+            Included here for demo/standalone testing purposes only.
+        -->
+    </application>
+</manifest>
