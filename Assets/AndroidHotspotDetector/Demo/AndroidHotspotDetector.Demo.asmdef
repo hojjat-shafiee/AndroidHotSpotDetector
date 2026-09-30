@@ -1,7 +1,10 @@
 {
-    "name": "AndroidHotspotDetector",
+    "name": "AndroidHotspotDetector.Demo",
     "rootNamespace": "AndroidHotspot",
-    "references": [],
+    "references": [
+        "AndroidHotspotDetector",
+        "Unity.TextMeshPro"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
